@@ -1,0 +1,86 @@
+.product-list{
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article{
+    background: #fff;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.product-list article strong{
+    color: rgb(0, 123, 180);
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.product-list article p{
+    color: rgb(82, 82, 82);
+    padding: 15px 0 15px;
+    line-height: 24px;
+}
+
+.product-list article a{
+    display: flex;
+    border: 2px solid rgb(0, 123, 180);
+    border-radius: 25px;
+    padding: 15px;
+    color: rgb(0, 123, 180);;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0,2s;
+}
+
+.product-list article a:hover{
+    color: white;
+    background: rgb(0, 123, 180);
+}
+
+.product-list .acctions button:disabled{
+    background: rgb(106, 208, 255);
+    cursor: default;
+}
+
+.acctions{
+    display: flex;
+    justify-content: space-between; /*joga um botão para esquerda e outro para a direita*/
+    margin-bottom: 20px;
+}
+
+.btn-prev{
+    border-radius: 15px;
+    border: none;
+    background: rgb(0, 123, 180);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-next{
+    border-radius: 15px;
+    border: none;
+    background: rgb(0, 123, 180);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.acctions button:hover{
+    background: rgb(0, 74, 109); 
+}
+
